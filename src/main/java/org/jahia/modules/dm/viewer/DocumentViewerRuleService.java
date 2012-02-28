@@ -81,7 +81,7 @@ public class DocumentViewerRuleService implements DocumentViewerServiceAware {
             return;
         }
         try {
-            viewerService.createView(nodeFact.getNode());
+            viewerService.createViewForNode(nodeFact.getNode());
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
         }
