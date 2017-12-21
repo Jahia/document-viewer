@@ -15,7 +15,7 @@
         GNU General Public License for more details.
 
         You should have received a copy of the GNU General Public License
-        along with this program.  If not, see <http://www.gnu.org/licenses/>.
+        along with this program.  If not, see <http://www.gnu.org/licenses />.
 
     ==========================================================================================
 
@@ -29,7 +29,7 @@
     </parent>
     <artifactId>document-viewer</artifactId>
     <name>Jahia Document Viewer</name>
-	<version>2.0.9-SNAPSHOT</version>
+	<version>2.0.9</version>
     <packaging>bundle</packaging>
     <description>Jahia document flash viewer module</description>
     
@@ -37,7 +37,7 @@
         <connection>scm:git:git@github.com:Jahia/document-viewer.git</connection>
         <url>scm:git:git@github.com:Jahia/document-viewer.git</url>
         <developerConnection>scm:git:git@github.com:Jahia/document-viewer.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>2_0_9</tag>
     </scm>
 
     <repositories>
