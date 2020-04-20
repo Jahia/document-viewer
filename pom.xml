@@ -49,11 +49,11 @@
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>7.1.0.0</version>
+        <version>8.0.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>document-viewer</artifactId>
     <name>Jahia Document Viewer</name>
-	<version>2.0.10-SNAPSHOT</version>
+	<version>3.0.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <description>Jahia document flash viewer module</description>
     
@@ -89,6 +89,7 @@
                     <instructions>
                         <Jahia-Depends>default,document-management-api</Jahia-Depends>
                         <Import-Package>org.jahia.dm.tags,${jahia.plugin.projectPackageImport}</Import-Package>
+                        <Jahia-Signature>MC0CFFMJcUftHFfE19GO/9lGmikOvOiZAhUAgdIplzLntijZ/WgSKCMCrkkLm7o=</Jahia-Signature>
                     </instructions>
                 </configuration>
             </plugin>
